@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyAndroidDemo</string>
+
+    <string name="reload">重新加载</string>
+    <string name="error_tips">网络连接错误</string>
+
+    <string name="app_drag_delete">拖动到此处删除</string>
+</resources>

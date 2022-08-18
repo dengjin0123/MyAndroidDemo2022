@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/base_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_app_color"
+        app:titleTextColor="@color/white"
+        app:title="左边标题"
+        app:subtitle="副标题"
+        app:logo="@mipmap/ic_launcher"
+        app:subtitleTextColor="@color/white"
+        app:navigationIcon="@mipmap/ic_back_arr_white">
+
+        <TextView
+            android:id="@+id/base_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="居中标题"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+    </androidx.appcompat.widget.Toolbar>
+</FrameLayout>

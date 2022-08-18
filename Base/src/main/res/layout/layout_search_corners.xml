@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/layout_search_title_ly_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.xw.repo.XEditText
+            android:id="@+id/layout_search_title_edt"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dp_33"
+            android:layout_marginStart="@dimen/dp_13"
+            android:layout_marginEnd="@dimen/dp_13"
+            android:background="@drawable/shape_btn_bg_white_rad30"
+            android:drawableStart="@mipmap/ic_search"
+            android:drawablePadding="@dimen/dp_10"
+            android:gravity="center_vertical"
+            android:hint="搜索"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="@dimen/dp_16"
+            android:paddingEnd="@dimen/dp_16"
+            android:textColor="@color/gray333333"
+            android:textColorHint="@color/grayCFCFCF"
+            android:cursorVisible="false"
+            android:textSize="@dimen/sp_14" />
+        <ImageView
+            android:id="@+id/layout_search_title_right_img"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:scaleType="centerInside"
+            android:layout_marginEnd="@dimen/dp_10"/>
+    </LinearLayout>
+</LinearLayout>

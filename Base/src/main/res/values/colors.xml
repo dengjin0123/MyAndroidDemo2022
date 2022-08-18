@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+
+    <color name="main_app_color">@color/main_color_00bbcc</color>
+    <color name="colorPrimary">@color/main_color_00bbcc</color>
+    <color name="colorPrimaryDark">@color/main_color_00bbcc</color>
+    <color name="colorAccent">@color/main_color_00bbcc</color>
+
+    <color name="main_color_00bbcc">#3485FE</color>
+    <color name="color_5295F7">#5295F7</color>
+
+    <color name="color_101010">#101010</color>
+    <color name="color_232323">#232323</color>
+
+    <color name="errorTipsColor">#999999</color>
+    <color name="errorReloadColor">#999999</color>
+    <color name="reloadNormalColor">#DCBB6C</color>
+    <color name="reloadPressedColor">#ccaa66</color>
+
+    <color name="gray333333">#333333</color>
+    <color name="grayCFCFCF">#CFCFCF</color>
+
+    <color name="grayf0f0f0">#f0f0f0</color>
+
+    <!--分割线-->
+    <color name="main_divider">@color/grayf0f0f0</color>
+
+    <color name="COLOR_F7F7F7">#f7f7f7</color>
+    <color name="color_9f9f9f">#9F9F9F</color>
+    <color name="color_f12b30">#f12b30</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="app_color_f6">#f6f6f6</color>
+</resources>

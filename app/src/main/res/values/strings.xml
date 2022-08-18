@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyAndroidDemo</string>
+    <array name="home_button_bar">
+        <item>首页</item>
+        <item>发现</item>
+        <item>我的</item>
+    </array>
+    
+    <!--icon-->
+    <array name="home_img_default">
+        <item>home_default_icon</item>
+        <item>find_default_icon</item>
+        <item>me_default_icon</item>
+    </array>
+
+    <array name="home_img_check">
+        <item>home_press_icon</item>
+        <item>find_press_icon</item>
+        <item>me_press_icon</item>
+    </array>
+</resources>

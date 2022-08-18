@@ -1,0 +1,65 @@
+ext {
+    android = [
+            compileSdkVersion: 31,
+            minSdkVersion    : 21,
+            targetSdkVersion : 31,
+            versionCode      : 1,
+            versionName      : "1.0.0",
+            applicationId    : "com.xiangke.myandroiddemo"
+    ]
+
+    libsVersion = [
+            appcompat_version = "1.2.0",
+            material_version = "1.3.0",
+            constraintlayout_version = "2.0.4",
+            butterknife_version = "10.2.3",
+            coordinatorlayout_version = "1.2.0",
+            swipebacklayout_version = "1.1.0",
+            xedittext_version = "2.3.0",
+            gson_version = "2.8.5",
+            smart_refresh_version = "2.0.3",
+            flyco_dialog_version = "1.3.2",
+            magicIndicator_version = "1.7.0",
+            viewpage2_version = "1.0.0",
+            annotations_version = "15.0",
+            pictureselector_version = "3.10.6",
+            glide_version = "4.12.0",
+            retrofit_version = "2.6.2",
+            interceptor_version = "4.9.2",
+            rxandroid_version = "2.1.1",
+            rxjava_version = "2.2.12",
+            eventbus_version = "3.1.1",
+            transfor_version = "4.3.0"
+    ]
+
+    dependencies = [
+            appcompat                    : "androidx.appcompat:appcompat:$rootProject.appcompat_version",
+            material                     : "com.google.android.material:material:$rootProject.material_version",
+            constraintlayout             : "androidx.constraintlayout:constraintlayout:$rootProject.constraintlayout_version",
+            butterknife                  : "com.jakewharton:butterknife:$rootProject.butterknife_version",
+            butterknife_compiler         : "com.jakewharton:butterknife-compiler:$rootProject.butterknife_version",
+            coordinatorlayout            : "androidx.coordinatorlayout:coordinatorlayout:$rootProject.coordinatorlayout_version",
+            swipebacklayout              : "me.imid.swipebacklayout.lib:library:$rootProject.swipebacklayout_version",
+            xedittext                    : "com.xw.repo:xedittext-androidx:$rootProject.xedittext_version",
+            gson                         : "com.google.code.gson:gson:$rootProject.gson_version",
+            smart_refresh_layout         : "com.scwang.smart:refresh-layout-kernel:$rootProject.smart_refresh_version",      //核心必须依赖
+            smart_refresh_header         : "com.scwang.smart:refresh-header-material:$rootProject.smart_refresh_version",      //谷歌刷新头
+            smart_refresh_footer         : "com.scwang.smart:refresh-footer-classics:$rootProject.smart_refresh_version",     //经典加载
+            flyco_dialog                 : "com.flyco.dialog:FlycoDialog_Lib:$rootProject.flyco_dialog_version@aar", // 基础弹框+popwindow
+            magicIndicator               : "com.github.hackware1993:MagicIndicator:$rootProject.magicIndicator_version",
+            viewpage2                    : "androidx.viewpager2:viewpager2:$rootProject.viewpage2_version",
+            annotations                  : "org.jetbrains:annotations:$rootProject.annotations_version",
+            pictureselector              : "io.github.lucksiege:pictureselector:v$rootProject.pictureselector_version",// 图片选择器
+            ucrop                        : "io.github.lucksiege:ucrop:v$rootProject.pictureselector_version",// 图片剪切
+            glide                        : "com.github.bumptech.glide:glide:$rootProject.glide_version",
+            retrofit                     : "com.squareup.retrofit2:retrofit:$rootProject.retrofit_version",//retrofit2
+            converter_gson               : "com.squareup.retrofit2:converter-gson:$rootProject.retrofit_version",
+            logging_interceptor          : "com.squareup.okhttp3:logging-interceptor:$rootProject.interceptor_version",//日志拦截器
+            adapter_rxjava               : "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofit_version",
+            rxandroid                    : "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroid_version",//rxjava
+            rxjava                       : "io.reactivex.rxjava2:rxjava:$rootProject.rxjava_version",
+            eventbus                     : "org.greenrobot:eventbus:$rootProject.eventbus_version",
+            glide_transfor               : "jp.wasabeef:glide-transformations:$rootProject.transfor_version"//效果处理  比如裁剪、圆角、高斯模糊等等
+    ]
+
+}
